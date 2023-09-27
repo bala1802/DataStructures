@@ -55,3 +55,5 @@ class Solution:
         for rowAxis in range(ROWS):
             for columnAxis in range(COLUMNS):
                 dfs(rowAxis=rowAxis, columnAxis=columnAxis, node=root, word="")
+
+        return result
