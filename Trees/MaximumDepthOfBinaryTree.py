@@ -65,7 +65,7 @@ class Solution:
 
     """
     def iterativeDfs(self, root):
-        stack = [[root, 0]]
+        stack = [[root, 1]]
         result = 0
         
         while stack:
